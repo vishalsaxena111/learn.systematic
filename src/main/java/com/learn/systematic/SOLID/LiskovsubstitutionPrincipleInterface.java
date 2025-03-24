@@ -2,6 +2,18 @@ package com.learn.systematic.SOLID;
 
 public interface LiskovsubstitutionPrincipleInterface {
 
+
+    public abstract class SocialMedia1 {
+
+        public abstract  void chatWithFriend();
+
+        public abstract void publishPost(Object post);
+
+        public abstract  void sendPhotosAndVideos();
+
+        public abstract  void groupVideoCall(String... users);
+    }
+
     //Derived or child classes must be substitutable for their base or parent classes
 
     interface SocialMedia {

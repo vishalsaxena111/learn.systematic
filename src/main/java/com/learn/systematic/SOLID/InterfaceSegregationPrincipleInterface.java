@@ -2,6 +2,15 @@ package com.learn.systematic.SOLID;
 
 public interface InterfaceSegregationPrincipleInterface {
 
+    public interface UPIPayments1 {
+
+        public void payMoney();
+
+        public void getScratchCard();
+
+        public void getCashBackAsCreditBalance();
+    }
+
     //do not force any client to implement an interface which is irrelevant to them
 
     public interface UPIPayments {
