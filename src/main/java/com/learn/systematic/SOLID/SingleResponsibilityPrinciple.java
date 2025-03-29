@@ -2,6 +2,7 @@ package com.learn.systematic.SOLID;
 
 public class SingleResponsibilityPrinciple {
 
+//https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97
 
 
     public class BankService {
