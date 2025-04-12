@@ -12,6 +12,9 @@ public class Main {
         obj.add(tv);
 
         obj.setTemp(12);
+
+        obj.remove(tv);
+
         obj.setTemp(14);
 
 
