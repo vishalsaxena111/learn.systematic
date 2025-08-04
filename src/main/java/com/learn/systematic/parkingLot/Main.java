@@ -21,9 +21,21 @@ public class Main {
         System.out.println("Vehicle inserted " + v2.getNumber());
 
 
-//        Vehicle v3 = new Bike("UP 3456");
-//        parkingLot.insertVehicle(v3);
-//        System.out.println("Vehicle inserted " + v3.getNumber());
+        Vehicle v3 = new Bike("UP 3456");
+        parkingLot.insertVehicle(v3);
+        System.out.println("Vehicle inserted " + v3.getNumber());
+
+
+        Vehicle v4 = new Bike("UP 3456222");
+        parkingLot.insertVehicle(v4);
+        System.out.println("Vehicle inserted " + v4.getNumber());
+
+
+        Vehicle v5 = new Bike("UP 3456111");
+        parkingLot.insertVehicle(v5);
+        System.out.println("Vehicle inserted " + v5.getNumber());
+
+
 
         for (Floor floor : floors) {
             System.out.println("Floor " + floor.getFloorNumber() + " has " + floor.getFreeSpots().size() + " free spots.");
